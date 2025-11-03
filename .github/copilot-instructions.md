@@ -4,7 +4,7 @@ This repository is for the vanirxquick project, a .NET/C# based application.
 
 ## Project Context
 
-This is the vanirxquick repository. The project appears to be in its early stages of development.
+This is the vanirxquick repository, actively under development.
 
 ## Development Environment
 
@@ -59,8 +59,8 @@ dotnet test
 
 ## Additional Guidelines
 
-- Minimize changes when fixing issues - surgical and precise modifications
-- Do not remove or modify working code unless absolutely necessary
+- Make targeted, well-reasoned changes when fixing issues
+- Preserve working functionality while improving code quality when beneficial
 - Validate that changes don't introduce security vulnerabilities
 - Update documentation when making significant changes
 - Use existing libraries and packages when possible
