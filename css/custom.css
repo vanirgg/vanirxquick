@@ -1,0 +1,22 @@
+/* Custom styles for the website */
+/* Add your custom CSS here to override or extend Bulma styles */
+
+/* Example: Full-height sections */
+.section.is-fullheight {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Example: Custom colors */
+:root {
+    --primary-color: #3273dc;
+    --secondary-color: #48c774;
+}
+
+/* Example: Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
