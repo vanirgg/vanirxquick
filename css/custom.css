@@ -1,22 +1,40 @@
 /* Custom styles for the website */
 /* Add your custom CSS here to override or extend Bulma styles */
 
-/* Example: Full-height sections */
-.hero.is-fullheight {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 /* Example: Custom colors */
 :root {
-    --primary-color: #3273dc;
-    --secondary-color: #48c774;
+    /* --primary-color: #3273dc;
+    --secondary-color: #48c774; */
 }
 
 /* Example: Smooth scrolling */
 html {
     scroll-behavior: smooth;
 }
+body{
+  background: linear-gradient(to bottom,
+    rgba(12, 24, 64, 1) 9.1552734375%,
+    rgba(250, 173, 61, 1) 62.6220703125%,
+    rgba(252, 206, 139, 1) 96.4111328125%
+  );
+}
+
+/* Logo styling */
+/* .logo-image {
+    max-width: 400px;
+    margin: 1cqh auto;
+    display: block;
+}
+
+.logo{
+    display: block;
+    margin: 2rem auto;
+    max-width: 450px;
+}
+.logo-text{
+    max-width: 500px;
+    display: block;
+    margin: 1rem auto;
+} */

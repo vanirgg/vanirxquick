@@ -3,6 +3,7 @@
 
 // Example: Console log on page load
 document.addEventListener('DOMContentLoaded', function() {
+
     console.log('Page loaded successfully!');
     
     // Example: Navbar burger toggle for mobile
