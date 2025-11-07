@@ -5,36 +5,30 @@
 
 /* Example: Custom colors */
 :root {
-    /* --primary-color: #3273dc;
-    --secondary-color: #48c774; */
+    --primary-color: #FAAD3D;
+    --secondary-color: #0C1840;
+    --bulma-primary-h:36;
+    --bulma-primary-s:95%;
+    --bulma-primary-l:61%;
 }
-
-/* Example: Smooth scrolling */
 html {
     scroll-behavior: smooth;
 }
 body{
-  background: linear-gradient(to bottom,
+  /* background: linear-gradient(to bottom,
     rgba(12, 24, 64, 1) 9.1552734375%,
     rgba(250, 173, 61, 1) 62.6220703125%,
     rgba(252, 206, 139, 1) 96.4111328125%
-  );
+  ); */
+  background: var(--secondary-color);
+}
+footer{
+    background: var(--secondary-color);
+}
+a {
+    color: var(--primary-color);
 }
 
-/* Logo styling */
-/* .logo-image {
-    max-width: 400px;
-    margin: 1cqh auto;
-    display: block;
+.is-filtered-white img {
+    filter: brightness(0) invert(1);
 }
-
-.logo{
-    display: block;
-    margin: 2rem auto;
-    max-width: 450px;
-}
-.logo-text{
-    max-width: 500px;
-    display: block;
-    margin: 1rem auto;
-} */

@@ -3,143 +3,125 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VanirXQuick</title>
+    <title>Vanir Quick - Home</title>
 
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
     />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
   </head>
   <body data-theme="dark">
-    <!-- Hero Section 1 -->
-    <section id="section1" class="section is-fullheight">
+    <section id="home" class="section hero is-fullheight">
+      <div class="container columns is-centered is-vcentered is-mobile">
+        <div
+          class="column is-two-thirds-mobile has-text-centered is-two-fifths-widescreen is-half-tablet"
+        >
+          <figure class="image">
+            <img src="img/logo-text.svg" alt="Vanir Quick Logo" />
+          </figure>
+          <h1 class="title is-primary">
+            Welcome to <br />
+            Vanir Quick
+          </h1>
+          <a
+            class="button is-outlined is-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://linktr.ee/vanirquick"
+            >LinkTree</a
+          >
+        </div>
+      </div>
+      <div class="has-text-centered">
+        <a
+          class="button is-outlined is-primary"
+          href="#partners"
+          title="Scroll to Partners section"
+          aria-label="Scroll down to Partners section"
+        >
+          <span class="icon is-large">
+            <i class="fas fa-chevron-down fa-2x"></i>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <section id="partners" class="section hero is-halfheight">
       <div class="container">
-        <div class="columns is-centered">
-          <div class="column has-text-centered is-narrow-mobile is-two-fifths-widescreen is-half-tablet ">
- <figure class="image">
-              <img src="img/logo-text.svg" alt="VanirXQuick Logo" />
+        <h2 class="title is-2 has-text-centered">
+          <span>Partners</span>
+        </h2>
+        <div class="columns is-centered is-vcentered">
+          <div class="column container is-4 has-text-centered is-half-mobile">
+            <figure class="image is-3by1">
+              <img
+                src="img/applauscreative-logo.svg"
+                alt="Applaus Creative Logo"
+              />
             </figure>
-            <h1 class="title is-primary">VanirXQuick</h1>
           </div>
-        </div>
-    </section>
-
-    <!-- Section 2: About -->
-    <section id="section2" class="section is-fullheight">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <h2 class="title is-2">
-            <span class="icon-text">
-              <span class="icon">
-                <i class="fas fa-info-circle"></i>
-              </span>
-              <span>About</span>
-            </span>
-          </h2>
-          <div class="content is-large">
-            <p>
-              Velkommen til the gooner crew
-            </p>
-            <p>
-              Each section takes up the full height of the viewport for a clean,
-              modern look.
-            </p>
+          <div class="column container is-4 has-text-centered is-half-mobile">
+            <figure class="image is-3by1 is-filtered-white">
+              <img src="img/gamerpad-logo.svg" alt="Gamerpad Logo" />
+            </figure>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Section 3: Services -->
-    <section id="section3" class="section is-fullheight">
-      <div class="hero-body">
-        <div class="container">
-          <h2 class="title is-2 has-text-centered">
-            <span class="icon-text">
-              <span class="icon">
-                <i class="fas fa-cogs"></i>
-              </span>
-              <span>Services</span>
-            </span>
-          </h2>
-          <div class="columns is-centered">
-            <div class="column is-4 has-text-centered">
-              <div class="box">
-                <span class="icon is-large">
-                  <i class="fas fa-bolt fa-3x"></i>
-                </span>
-                <h3 class="title is-4">Fast</h3>
-                <p>Lightning-fast performance and load times</p>
-              </div>
+    <!-- Section 2: Games -->
+    <section id="games" class="section hero is-halfheight">
+      <div class="container">
+        <h2 class="title is-2 has-text-centered">
+          <span>Games</span>
+        </h2>
+        <div class="columns is-centered">
+          <div class="column is-4 has-text-centered">
+            <div class="box">
+              <h3 class="title is-4">Counter-Strike</h3>
             </div>
-            <div class="column is-4 has-text-centered">
-              <div class="box">
-                <span class="icon is-large">
-                  <i class="fas fa-mobile-alt fa-3x"></i>
-                </span>
-                <h3 class="title is-4">Responsive</h3>
-                <p>Works seamlessly on all devices</p>
-              </div>
+          </div>
+          <div class="column is-4 has-text-centered">
+            <div class="box">
+              <h3 class="title is-4">Rocket League</h3>
             </div>
-            <div class="column is-4 has-text-centered">
-              <div class="box">
-                <span class="icon is-large">
-                  <i class="fas fa-paint-brush fa-3x"></i>
-                </span>
-                <h3 class="title is-4">Beautiful</h3>
-                <p>Clean and modern design aesthetic</p>
-              </div>
+          </div>
+          <div class="column is-4 has-text-centered">
+            <div class="box">
+              <h3 class="title is-4">Overwatch</h3>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Section 4: Contact -->
-    <section id="section4" class="section is-fullheight">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <h2 class="title is-2">
-            <span class="icon-text">
-              <span class="icon">
-                <i class="fas fa-envelope"></i>
-              </span>
-              <span>Contact</span>
-            </span>
-          </h2>
-          <div class="content is-large">
-            <p>Get in touch with us!</p>
-            <div class="buttons is-centered">
-              <button class="button is-dark is-large">
-                <span class="icon">
-                  <i class="fab fa-github"></i>
-                </span>
-                <span>GitHub</span>
-              </button>
-              <button class="button is-dark is-large">
-                <span class="icon">
-                  <i class="fas fa-envelope"></i>
-                </span>
-                <span>Email</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Section 3: Partners -->
 
     <!-- Footer -->
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
-          <strong>Vanir Quick</strong> 
+          Copyright <strong>&copy; Vanir Quick</strong> (<a
+            class="is-underlined"
+            href="https://virksomhet.brreg.no/nb/oppslag/enheter/926756834"
+            >brreg: 926756834</a
+          >)
           <br />
-            Built with
-          <a href="https://bulma.io/">Bulma</a>
+          Built with
+          <a class="is-underlined" href="https://bulma.io/">Bulma</a>
           <br />
           By Vanir and
-          <a href="https://github.com/Bitbarlily">Bili</a>
+          <a class="is-underlined" href="https://github.com/Bitbarlily">Bili</a>
+          <br />
+          <a class="is-underlined" href="https://linktr.ee/vanirquick"
+            >Contact us</a
+          >
         </p>
       </div>
     </footer>
