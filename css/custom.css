@@ -1,20 +1,22 @@
 /* Custom styles for the website */
 /* Add your custom CSS here to override or extend Bulma styles */
 
-
-
 /* Example: Custom colors */
 :root {
-    --primary-color: #FAAD3D;
-    --secondary-color: #0C1840;
-    --bulma-primary-h:36;
-    --bulma-primary-s:95%;
-    --bulma-primary-l:61%;
+  --primary-color: #faad3d;
+  --secondary-color: #0c1840;
+  --bulma-primary-h: 36;
+  --bulma-primary-s: 95%;
+  --bulma-primary-l: 61%;
+
+  --bulma-shadow-h: 36 !important;
+  --bulma-shadow-s: 95% !important;
+  --bulma-shadow-l: 61% !important;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-body{
+body {
   /* background: linear-gradient(to bottom,
     rgba(12, 24, 64, 1) 9.1552734375%,
     rgba(250, 173, 61, 1) 62.6220703125%,
@@ -22,13 +24,21 @@ body{
   ); */
   background: var(--secondary-color);
 }
-footer{
-    background: var(--secondary-color);
+footer {
+  background: var(--secondary-color);
 }
 a {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .is-filtered-white img {
-    filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+
+.box {
+  --bulma-shadow-h: 36;
+  --bulma-shadow-s: 95%;
+  --bulma-shadow-l: 61%;
+  --bulma-box-shadow: 0 0.8em 1.5em 0 hsla(36, 95%, 61%, 0.2),
+    0 0px 0 1px hsla(36, 95%, 61%, 0.3);
 }
