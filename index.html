@@ -1,138 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanir Quick - Home</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="css/custom.css" />
-  </head>
-  <body data-theme="dark">
-    <section id="home" class="section hero is-fullheight">
-      <div class="container columns is-centered is-vcentered is-mobile">
-        <div
-          class="column is-two-thirds-mobile has-text-centered is-two-fifths-widescreen is-half-tablet"
-        >
-          <figure class="image">
-            <img src="img/logo-text.svg" alt="Vanir Quick Logo" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VanirQuick - Home</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+</head>
+
+<body data-theme="dark">
+  <section id="home" class="section hero is-fullheight">
+    <div class="container columns is-centered is-vcentered is-mobile">
+      <div class="column is-two-thirds-mobile has-text-centered is-two-fifths-widescreen is-half-tablet">
+        <figure class="image">
+          <img src="img/logo-text.svg" alt="Vanir Quick Logo" />
+        </figure>
+        <h1 class="title is-primary">
+          Welcome to <br />
+          Vanir Quick
+        </h1>
+        <a class="button is-outlined is-primary" target="_blank" rel="noopener noreferrer"
+          href="https://linktr.ee/vanirquick">LinkTree</a>
+      </div>
+    </div>
+    <div class="has-text-centered">
+      <a class="button is-outlined is-primary" href="#partners" title="Scroll to Partners section"
+        aria-label="Scroll down to Partners section">
+        <span class="icon is-large">
+          <i class="fas fa-chevron-down fa-2x"></i>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <section id="partners" class="section hero is-halfheight">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered mb-6">
+        <span class="has-text-primary">Partners</span>
+      </h2>
+      <div class="columns is-centered is-vcentered">
+        <div class="column container is-3 has-text-centered is-one-quarter-mobile">
+          <figure class="image is-3by1">
+            <img src="img/applauscreative-logo.svg" alt="Applaus Creative Logo" />
           </figure>
-          <h1 class="title is-primary">
-            Welcome to <br />
-            Vanir Quick
-          </h1>
-          <a
-            class="button is-outlined is-primary"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://linktr.ee/vanirquick"
-            >LinkTree</a
-          >
+        </div>
+        <div class="column container is-3 has-text-centered is-one-quarter-mobile">
+          <figure class="image is-3by1 is-filtered-white">
+            <img src="img/gamerpad-logo.svg" alt="Gamerpad Logo" />
+          </figure>
+        </div>
+        <div class="column container is-3 has-text-centered is-one-quarter-mobile">
+          <figure class="image is-3by1 is-filtered-white">
+            <img src="img/hummel-logo.svg" alt="Hummel Logo" />
+          </figure>
         </div>
       </div>
-      <div class="has-text-centered">
-        <a
-          class="button is-outlined is-primary"
-          href="#partners"
-          title="Scroll to Partners section"
-          aria-label="Scroll down to Partners section"
-        >
-          <span class="icon is-large">
-            <i class="fas fa-chevron-down fa-2x"></i>
-          </span>
-        </a>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="partners" class="section hero is-halfheight">
-      <div class="container">
-        <h2 class="title is-2 has-text-centered mb-6">
-          <span class="has-text-primary">Partners</span>
-        </h2>
-        <div class="columns is-centered is-vcentered">
-          <div
-            class="column container is-3 has-text-centered is-one-quarter-mobile"
-          >
-            <figure class="image is-3by1">
-              <img
-                src="img/applauscreative-logo.svg"
-                alt="Applaus Creative Logo"
-              />
+  <section id="games" class="section hero is-halfheight">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered mb-6">
+        <span class="has-text-primary">Games</span>
+      </h2>
+      <div class="columns is-centered">
+        <div class="column is-3 has-text-centered">
+          <a class="box" href="#cs">
+            <h3 class="title is-4">Counter-Strike</h3>
+          </a>
+        </div>
+        <div class="column is-3 has-text-centered">
+          <a class="box" href="#rl">
+            <h3 class="title is-4">Rocket League</h3>
+          </a>
+        </div>
+        <div class="column is-3 has-text-centered">
+          <a class="box" href="#ow">
+            <h3 class="title is-4">Overwatch</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="has-text-centered">
+      <a class="button is-outlined is-primary" href="#about" title="Scroll to About section"
+        aria-label="Scroll down to About section">
+        <span class="icon is-large">
+          <i class="fas fa-chevron-down fa-2x"></i>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="section hero is-halfheight">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered mb-6">
+        <span class="has-text-primary">About</span>
+      </h2>
+      <div id="about-content" class="has-text-centered">
+        Vanir and Quick esports merged in 2025 to form Vanir Quick, a new esports organization focused on competitive
+        gaming and
+        community engagement.<br /> With a strong foundation in both competitive play and community, Vanir Quick aims
+        to build a vibrant community of gamers and fans around the world. <br />Our mission is to provide top-tier
+        esports
+        entertainment while fostering a positive and inclusive environment for players and fans alike.
+      </div>
+    </div>
+  </section>
+
+  <section id="managementportal" class="section hero is-halfheight">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered mb-6">
+        <span class="has-text-primary">Operations Portal</span>
+      </h2>
+      <div id="managementportal-content" class="has-text-centered">
+        Our in-house <em>operations portal</em> is a powerful tool designed to streamline the operations of our esports
+        organization.<br />
+        It provides a centralized platform for managing the organization as a whole, including team rosters, scheduling,
+        tracking different kinds of metrics
+        and facilitating communication between players, coaches, and staff. <br /> With an intuitive interface and
+        robust features, our operations portal helps us stay organized and efficient as we navigate the competitive
+        esports landscape and the day to day.<br />
+        Be sure to stay tuned and check out our portal when we launch!
+      </div>
+    </div>
+    <div class="has-text-centered">
+      <a class="button is-outlined is-primary" href="#cs" title="Scroll to Teams section"
+        aria-label="Scroll down to Teams section">
+        <span class="icon is-large">
+          <i class="fas fa-chevron-down fa-2x"></i>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <section id="cs" class="section">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered mb-6">
+        <a class="has-text-primary" href="#games">Counter-Strike</a>
+      </h2>
+      <div class="columns is-centered">
+        <div class="column is-one-fifth has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
             </figure>
+            <p class="title is-5">Player1</p>
+            <p class="subtitle is-6">IGL</p>
           </div>
-          <div
-            class="column container is-3 has-text-centered is-one-quarter-mobile"
-          >
-            <figure class="image is-3by1 is-filtered-white">
-              <img src="img/gamerpad-logo.svg" alt="Gamerpad Logo" />
+        </div>
+        <div class="column is-one-fifth has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
             </figure>
+            <p class="title is-5">Player2</p>
+            <p class="subtitle is-6">AWPer</p>
           </div>
-          <div
-            class="column container is-3 has-text-centered is-one-quarter-mobile"
-          >
-            <figure class="image is-3by1 is-filtered-white">
-              <img src="img/hummel-logo.svg" alt="Hummel Logo" />
+        </div>
+        <div class="column is-one-fifth has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
             </figure>
+            <p class="title is-5">Player3</p>
+            <p class="subtitle is-6">Entry</p>
+          </div>
+        </div>
+        <div class="column is-one-fifth has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
+            </figure>
+            <p class="title is-5">Player4</p>
+            <p class="subtitle is-6">Support</p>
+          </div>
+        </div>
+        <div class="column is-one-fifth has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
+            </figure>
+            <p class="title is-5">Player5</p>
+            <p class="subtitle is-6">Lurker</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="games" class="section hero is-halfheight">
-      <div class="container">
-        <h2 class="title is-2 has-text-centered mb-6">
-          <span class="has-text-primary">Games</span>
-        </h2>
-        <div class="columns is-centered">
-          <div class="column is-3 has-text-centered">
-            <div class="box">
-              <h3 class="title is-4">Counter-Strike</h3>
-            </div>
+  <section id="rl" class="section">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered mb-6">
+        <a class="has-text-primary" href="#games">Rocket League</a>
+      </h2>
+      <div class="columns is-centered">
+        <div class="column is-4 has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
+            </figure>
+            <p class="title is-5">Player1</p>
+            <p class="subtitle is-6">Striker</p>
           </div>
-          <div class="column is-3 has-text-centered">
-            <div class="box">
-              <h3 class="title is-4">Rocket League</h3>
-            </div>
+        </div>
+        <div class="column is-4 has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
+            </figure>
+            <p class="title is-5">Player2</p>
+            <p class="subtitle is-6">Midfield</p>
           </div>
-          <div class="column is-3 has-text-centered">
-            <div class="box">
-              <h3 class="title is-4">Overwatch</h3>
-            </div>
+        </div>
+        <div class="column is-4 has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
+            </figure>
+            <p class="title is-5">Player3</p>
+            <p class="subtitle is-6">Defender</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <p>
-          Copyright <strong>&copy; Vanir Quick</strong> (<a
-            class="is-underlined"
-            href="https://virksomhet.brreg.no/nb/oppslag/enheter/926756834"
-            >brreg: 926756834</a
-          >)
-          <br />
-          Built with
-          <a class="is-underlined" href="https://bulma.io/">Bulma</a>
-          <br />
-          By Vanir and
-          <a class="is-underlined" href="https://github.com/Bitbarlily">Bili</a>
-          <br />
-          <a class="is-underlined" href="https://linktr.ee/vanirquick"
-            >Contact us</a
-          >
-        </p>
+  <section id="ow" class="section">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered mb-6">
+        <a class="has-text-primary" href="#games">Overwatch</a>
+      </h2>
+      <div class="columns is-centered">
+        <div class="column is-one-fifth has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
+            </figure>
+            <p class="title is-5">Player1</p>
+            <p class="subtitle is-6">Tank</p>
+          </div>
+        </div>
+        <div class="column is-one-fifth has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
+            </figure>
+            <p class="title is-5">Player2</p>
+            <p class="subtitle is-6">DPS</p>
+          </div>
+        </div>
+        <div class="column is-one-fifth has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
+            </figure>
+            <p class="title is-5">Player3</p>
+            <p class="subtitle is-6">DPS</p>
+          </div>
+        </div>
+        <div class="column is-one-fifth has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
+            </figure>
+            <p class="title is-5">Player4</p>
+            <p class="subtitle is-6">Support</p>
+          </div>
+        </div>
+        <div class="column is-one-fifth has-text-centered">
+          <div class="box person-box">
+            <figure class="image is-64x64 mb-3">
+              <img class="is-rounded" src="img/unknown.png" alt="Player avatar">
+            </figure>
+            <p class="title is-5">Player5</p>
+            <p class="subtitle is-6">Support</p>
+          </div>
+        </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <!-- Custom JavaScript -->
-    <script src="js/main.js"></script>
-  </body>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        Copyright <strong>&copy; Vanir Quick</strong> (<a class="is-underlined"
+          href="https://virksomhet.brreg.no/nb/oppslag/enheter/926756834">brreg: 926756834</a>)
+        <br />
+        Built with
+        <a class="is-underlined" href="https://bulma.io/">Bulma</a>
+        <br />
+        By VanirQuick and
+        <a class="is-underlined" href="https://github.com/Bitbarlily">Bili</a>
+        <br />
+        <a class="is-underlined" href="https://linktr.ee/vanirquick">Contact us</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
 </html>
