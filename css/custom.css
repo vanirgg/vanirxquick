@@ -35,6 +35,16 @@ a {
   filter: brightness(0) invert(1);
 }
 
+/* Keep raster and SVG partner logos at their aspect ratio within the same box */
+.partner-logo img {
+  object-fit: contain;
+}
+
+/* Square marks fill the full box height; inset so they match the wordmarks visually */
+.partner-logo.is-square-logo img {
+  padding: 5% 0;
+}
+
 .box {
   --bulma-shadow-h: 36;
   --bulma-shadow-s: 95%;
